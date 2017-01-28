@@ -1,0 +1,12 @@
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\TestFramework.dll
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\TestFramework.pdb
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\WebDriver.dll
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\WebDriver.Support.dll
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\WebDriver.xml
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\WebDriver.Support.xml
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.csprojResolveAssemblyReference.cache
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.TestData.resources
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.csproj.GenerateResource.Cache
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.dll
+c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.pdb

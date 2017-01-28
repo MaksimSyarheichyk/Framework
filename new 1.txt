@@ -1,0 +1,11 @@
+//*[@id="ctl00_ctl45_g_17b02124_5f12_4901_8ad8_1c8680d5d195_ctl00_searchResultsSpan"]/div[1]/div[1]/article/div/div/header/h4/a
+
+//*[@id="ctl00_ctl45_g_17b02124_5f12_4901_8ad8_1c8680d5d195_ctl00_searchResultsSpan"]/div[1]/div[3]/article/div/div/header/h4/a
+
+//*[@id="ctl00_ctl45_g_17b02124_5f12_4901_8ad8_1c8680d5d195_ctl00_searchResultsSpan"]/div[1]/div[5]/article/div/div/header/h4/a
+
+//*[@id="ctl00_ctl45_g_17b02124_5f12_4901_8ad8_1c8680d5d195_ctl00_searchResultsSpan"]/div[1]/div[7]/article/div/div/header/h4/a
+
+//*[@id="ctl00_ctl45_g_17b02124_5f12_4901_8ad8_1c8680d5d195_ctl00_searchResultsSpan"]/div[1]/div[9]/article/div/div/header/h4/a
+
+//*[@id="ctl00_ctl45_g_17b02124_5f12_4901_8ad8_1c8680d5d195_ctl00_results"]
