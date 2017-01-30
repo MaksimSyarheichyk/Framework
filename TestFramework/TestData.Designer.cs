@@ -79,7 +79,7 @@ namespace TestFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\TestFramework\bin\Debug.
+        ///   Looks up a localized string similar to C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\FrameworkWebDriver\Framework\TestFramework\bin\Debug.
         /// </summary>
         internal static string ChromeDriverPath {
             get {
@@ -88,7 +88,7 @@ namespace TestFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\Responsive-Batch-4.xlsx.
+        ///   Looks up a localized string similar to C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\FrameworkWebDriver\Framework\Responsive-Batch-4.xlsx.
         /// </summary>
         internal static string ExcelFilePath {
             get {
@@ -115,7 +115,7 @@ namespace TestFramework {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\ScreenshotsFails.
+        ///   Looks up a localized string similar to C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\FrameworkWebDriver\Framework\ScreenshotsFails.
         /// </summary>
         internal static string ScreenshotFolderPath {
             get {

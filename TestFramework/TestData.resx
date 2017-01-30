@@ -124,10 +124,10 @@
     <value>dropdown-toggle</value>
   </data>
   <data name="ChromeDriverPath" xml:space="preserve">
-    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\TestFramework\bin\Debug</value>
+    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\FrameworkWebDriver\Framework\TestFramework\bin\Debug</value>
   </data>
   <data name="ExcelFilePath" xml:space="preserve">
-    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\Responsive-Batch-4.xlsx</value>
+    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\FrameworkWebDriver\Framework\Responsive-Batch-4.xlsx</value>
   </data>
   <data name="ItemPath" xml:space="preserve">
     <value>menu-item-text</value>
@@ -136,6 +136,6 @@
     <value>.jpg</value>
   </data>
   <data name="ScreenshotFolderPath" xml:space="preserve">
-    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\ScreenshotsFails</value>
+    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\FrameworkWebDriver\Framework\ScreenshotsFails</value>
   </data>
 </root>
