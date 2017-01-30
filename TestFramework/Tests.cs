@@ -10,13 +10,13 @@ namespace TestFramework
 
         [Test]
         [TestCaseSource("Batch")]
-        public void Test(JournalModel a)
+        public void Test(JournalModel jourModel)
         {
-            Steps.OpenJournal(a.JournalCode);
-            foreach (var b in a.Navigation)
+            Steps.OpenJournal(jourModel.JournalCode);
+            foreach (var navModel in jourModel.Navigation)
             {
-                string message = string.Format("Fail for Journal: {0}\nCategory: {1}\nItem: {2}\nPlease, check! ", a.JournalCode, b.Category, b.Item);
-                Assert.True(Steps.CheckItem(b), message);
+                string message = string.Format("Fail for Journal: {0}\nCategory: {1}\nItem: {2}\nPlease, check! ", jourModel.JournalCode, navModel.Category, navModel.Item);
+                Assert.True(Steps.CheckItem(navModel), message);
             }
         }
 
