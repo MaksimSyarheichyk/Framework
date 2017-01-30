@@ -38,6 +38,10 @@
       <HintPath>..\..\HT1\HT1\obj\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="nunit.framework, Version=3.6.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.6.0\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -59,9 +63,10 @@
   <ItemGroup>
     <Compile Include="DataFromExcelFile.cs" />
     <Compile Include="DataModel.cs" />
-    <Compile Include="Driver.cs" />
+    <Compile Include="WebDriver.cs" />
     <Compile Include="PageObjects\HomePage.cs" />
     <Compile Include="PageObjects\JournalPage.cs" />
+    <Compile Include="Steps.cs" />
     <Compile Include="TestData.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

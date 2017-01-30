@@ -10,7 +10,7 @@ namespace TestFramework.PageObjects
     class HomePage
     {
         public IWebElement searchInput { get { return WebDriver.Driver.FindElement(By.XPath("//*[contains(@id, 'SearchBox_txtKeywords')]")); } }
-        public IWebElement searchButton { get { return WebDriver.Driver.FindElement(By.XPath("//*[contains(@id, 'btnGlobalSearchMagnifier")); } }
+        public IWebElement searchButton { get { return WebDriver.Driver.FindElement(By.XPath("//*[contains(@id, 'btnGlobalSearchMagnifier')]")); } }
 
         public HomePage(){ }
     }

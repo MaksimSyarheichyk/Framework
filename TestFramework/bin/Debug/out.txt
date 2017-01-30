@@ -39,6 +39,7 @@ ebjwh - Journal Info Rights and Permissions
 ectjournal - Articles & Issues Current Issue
 ectjournal - Articles & Issues Previous Issues
 ectjournal - Articles & Issues Published Ahead-of-Print
+ectjournal - Videos 
 ectjournal - For Authors Information for Authors
 ectjournal - For Authors Language Editing Services
 ectjournal - Journal Info About the Journal
@@ -104,6 +105,7 @@ ephaj - Journal Info Rights and Permissions
 epidem - Articles & Issues Current Issue
 epidem - Articles & Issues Previous Issues
 epidem - Articles & Issues Published Ahead-of-Print
+epidem - Collections 
 epidem - Multimedia Podcasts
 epidem - Multimedia Videos
 epidem - For Authors Information for Authors
@@ -127,6 +129,7 @@ eurjcancerprev - Journal Info Reprints
 eurjcancerprev - Journal Info Rights and Permissions
 familyandcommunityhealth - Articles & Issues Current Issue
 familyandcommunityhealth - Articles & Issues Previous Issues
+familyandcommunityhealth - Collections 
 familyandcommunityhealth - For Authors Information for Authors
 familyandcommunityhealth - For Authors Language Editing Services
 familyandcommunityhealth - Journal Info About the Journal
@@ -139,11 +142,15 @@ familyandcommunityhealth - Journal Info Rights and Permissions
 forensicnursing - Articles & Issues Current Issue
 forensicnursing - Articles & Issues Previous Issues
 forensicnursing - Articles & Issues Published Ahead-of-Print
+forensicnursing - Videos 
+forensicnursing - CE 
 forensicnursing - For Authors Information for Authors
 forensicnursing - For Authors Language Editing Services
 gastroenterologynursing - Articles & Issues Current Issue
 gastroenterologynursing - Articles & Issues Previous Issues
 gastroenterologynursing - Articles & Issues Published Ahead-of-Print
+gastroenterologynursing - Collections 
+gastroenterologynursing - CE 
 gastroenterologynursing - For Authors Information for Authors
 gastroenterologynursing - For Authors Language Editing Services
 glaucomajournal - Articles & Issues Current Issue
@@ -190,6 +197,7 @@ har-journal - Journal Info Rights and Permissions
 hcmrjournal - Articles & Issues Current Issue
 hcmrjournal - Articles & Issues Previous Issues
 hcmrjournal - Articles & Issues Published Ahead-of-Print
+hcmrjournal - Topical Collections 
 hcmrjournal - For Authors Information for Authors
 hcmrjournal - For Authors Language Editing Services
 hcmrjournal - Journal Info About the Journal
@@ -202,6 +210,7 @@ hcmrjournal - Journal Info Rights and Permissions
 headtraumarehab - Articles & Issues Current Issue
 headtraumarehab - Articles & Issues Previous Issues
 headtraumarehab - Articles & Issues Published Ahead-of-Print
+headtraumarehab - Collections 
 headtraumarehab - For Authors Information for Authors
 headtraumarehab - For Authors Language Editing Services
 headtraumarehab - Journal Info About the Journal
@@ -215,6 +224,7 @@ headtraumarehab - Journal Info Rights and Permissions
 headtraumarehab - Journal Info RSS Feeds
 health-physics - Articles & Issues Current Issue
 health-physics - Articles & Issues Previous Issues
+health-physics - ORS 
 health-physics - Collections Selected Topics in Medical Physics
 health-physics - Collections Radiation Measurements
 health-physics - Collections Radiation in the Enviorment
@@ -235,8 +245,11 @@ healthcaremanagerjournal - Journal Info Rights and Permissions
 hnpjournal - Articles & Issues Current Issue
 hnpjournal - Articles & Issues Previous Issues
 hnpjournal - Articles & Issues Published Ahead-of-Print
+hnpjournal - Collections 
+hnpjournal - CE 
 hnpjournal - For Authors Information for Authors
 hnpjournal - For Authors Language Editing Services
+homehealthcarenurseonline - CE 
 homehealthcarenurseonline - Articles & Issues Previous Issues
 homehealthcarenurseonline - Articles & Issues Published Ahead-of-Print
 homehealthcarenurseonline - Collections Cardiac Care
@@ -262,9 +275,12 @@ homehealthcarenurseonline - Collections Regulatory Matters
 homehealthcarenurseonline - Collections Research
 homehealthcarenurseonline - Collections Techonology and Its Use at Home
 homehealthcarenurseonline - Collections Transitions of Care
+homehealthcarenurseonline - For Authors 
 hrpjournal - Articles & Issues Current Issue
 hrpjournal - Articles & Issues Previous Issues
 hrpjournal - Articles & Issues Published Ahead-of-Print
+hrpjournal - CME 
+hrpjournal - Videos 
 hrpjournal - For Authors Information for Authors
 hrpjournal - For Authors Language Editing Services
 humanandrology - Articles & Issues Current Issue
@@ -281,6 +297,7 @@ humanandrology - Journal Info Job Opportunities
 humanandrology - Journal Info Rights and Permissions
 ijebh - Articles & Issues Current Issue
 ijebh - Articles & Issues Previous Issues
+ijebh - Online First 
 ijebh - For Authors Information for Authors
 ijebh - For Authors Language Editing Services
 ijebh - Journal Info About the Journal
@@ -334,6 +351,7 @@ immunotherapy-journal - Journal Info Rights and Permissions
 implantdent - Articles & Issues Current Issue
 implantdent - Articles & Issues Previous Issues
 implantdent - Articles & Issues Published Ahead-of-Print
+implantdent - Collections 
 implantdent - For Authors Information for Authors
 implantdent - For Authors Language Editing Services
 implantdent - Journal Info About the Journal
@@ -346,6 +364,7 @@ implantdent - Journal Info Rights and Permissions
 innovjournal - Articles & Issues Current Issue
 innovjournal - Articles & Issues Previous Issues
 innovjournal - Articles & Issues Published Ahead-of-Print
+innovjournal - Collections 
 innovjournal - For Authors Submit Your Manuscript
 innovjournal - For Authors Information for Authors
 innovjournal - For Authors Language Editing Services
@@ -360,6 +379,7 @@ innovjournal - Journal Info Rights and Permissions
 infectdis - Articles & Issues Current Issue
 infectdis - Articles & Issues Previous Issues
 infectdis - Articles & Issues Published Ahead-of-Print
+infectdis - Collections 
 infectdis - For Authors Information for Authors
 infectdis - For Authors Language Editing Services
 infectdis - Journal Info About the Journal
@@ -474,6 +494,7 @@ itch - Journal Info Rights and Permissions
 itch - Journal Info Information for Authors
 iycjournal - Articles & Issues Current Issue
 iycjournal - Articles & Issues Previous Issues
+iycjournal - Article Collections 
 iycjournal - For Authors Information for Authors
 iycjournal - For Authors Language Editing Services
 iycjournal - Journal Info About the Journal

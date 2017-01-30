@@ -1,31 +1,29 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using NUnit.Framework;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
 
 namespace TestFramework
 {
-    [TestClass]
+    [TestFixture]
     public class Tests
     {
-        [TestMethod]
-        public void Test()
+        static List<JournalModel> Batch { get { return Steps.Start(); } }
+
+        [Test]
+        [TestCaseSource("Batch")]
+        public void Test(JournalModel a)
         {
-            List<JournalModel> a = DataFromExcelFile.GetDataFromExcelFile();
-            List<string> d = new List<string>();
-
-            foreach(var b in a)
+            Steps.OpenJournal(a.JournalCode);
+            foreach (var b in a.Navigation)
             {
-                foreach(var c in b.Navigation)
-                {
-                    d.Add(b.JournalCode + " - " + c.Category + " " + c.Item);
-                }
+                string message = string.Format("Fail for Journal: {0}\nCategory: {1}\nItem: {2}\nPlease, check! ", a.JournalCode, b.Category, b.Item);
+                Assert.True(Steps.CheckItem(b), message);
             }
-            File.WriteAllLines("out.txt", d.ToArray());
+        }
 
+        [OneTimeTearDown]
+        public void TearDown()
+        {
+            Steps.End();
         }
     }
 }

@@ -10,3 +10,5 @@ c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\
 c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.csproj.GenerateResource.Cache
 c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.dll
 c:\users\maksim_siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\obj\Debug\TestFramework.pdb
+C:\Users\Maksim_Siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\nunit.framework.dll
+C:\Users\Maksim_Siarheichyk\documents\visual studio 2015\Projects\TestFramework\TestFramework\bin\Debug\nunit.framework.xml

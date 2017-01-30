@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
@@ -19,7 +15,7 @@ namespace TestFramework
         {
             get
             {
-                if (driver==null)
+                if (driver == null)
                 {
                     driver = new ChromeDriver(TestData.ChromeDriverPath);
                     driver.Manage().Window.Maximize();
@@ -27,6 +23,20 @@ namespace TestFramework
 
                 return driver;
             }
+        }
+
+        public static void DriverCancel()
+        {
+            driver.Quit();
+            driver = null;
+        } 
+
+        public static void TakeScreenshot(string name)
+        {
+            Screenshot screen = ((ITakesScreenshot)WebDriver.Driver).GetScreenshot();
+            string fileName = string.Format("{0}{1}",DateTime.Now.ToLongTimeString().Replace(':', '.'), name);
+            string path = string.Format("{0}{1}{2}", TestData.ScreenshotFolderPath,fileName,TestData.ScreenshotFilesExtention);
+            screen.SaveAsFile(path, System.Drawing.Imaging.ImageFormat.Jpeg);
         }
 
         public static void waitForElement(By element, int timeOut)
@@ -38,8 +48,7 @@ namespace TestFramework
             }
             catch
             {
-                Screenshot screen = ((ITakesScreenshot)WebDriver.Driver).GetScreenshot();
-                screen.SaveAsFile("C:/Users/Maksim_Siarheichyk/screen.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+                TakeScreenshot(element.ToString());
             }
         }
 

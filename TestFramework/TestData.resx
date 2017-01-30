@@ -117,10 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BaseUrl" xml:space="preserve">
+    <value>http://journals.lww.com/</value>
+  </data>
+  <data name="CategoryPath" xml:space="preserve">
+    <value>dropdown-toggle</value>
+  </data>
   <data name="ChromeDriverPath" xml:space="preserve">
-    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\TestFramework\bin\Debug\chromedriver.exe</value>
+    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\TestFramework\bin\Debug</value>
   </data>
   <data name="ExcelFilePath" xml:space="preserve">
-    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\Responsive-Batch-4.xlsx</value>
+    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\Responsive-Batch-4.xlsx</value>
+  </data>
+  <data name="ItemPath" xml:space="preserve">
+    <value>menu-item-text</value>
+  </data>
+  <data name="ScreenshotFilesExtention" xml:space="preserve">
+    <value>.jpg</value>
+  </data>
+  <data name="ScreenshotFolderPath" xml:space="preserve">
+    <value>C:\Users\Maksim_Siarheichyk\Documents\Visual Studio 2015\Projects\TestFramework\ScreenshotsFails</value>
   </data>
 </root>

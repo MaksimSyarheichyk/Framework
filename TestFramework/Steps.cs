@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using OpenQA.Selenium;
 using TestFramework.PageObjects;
 
@@ -10,50 +6,49 @@ namespace TestFramework
 {
     class Steps
     {
-        private static List<JournalModel> data;
-
         public static List<JournalModel> Start()
         {
-            return data = DataFromExcelFile.GetDataFromExcelFile();
+            return DataFromExcelFile.GetDataFromExcelFile();
         }
-
-        public static bool Check(JournalModel model)
-        {
-            OpenJournal(model.JournalCode);
-            foreach(var a in model.Navigation)
-            {
-                if (!CheckItem(a))
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-
-        private static void OpenJournal(string journalCode)
+        
+        public static void OpenJournal(string journalCode)
         {
             IWebDriver driver = WebDriver.Driver;
-            driver.Navigate().GoToUrl("http://journals.lww.com/" + journalCode);
+            driver.Navigate().GoToUrl(TestData.BaseUrl + journalCode);
         }
 
-        private static bool CheckItem(NavigationModel navModel)
+        public static bool CheckItem(NavigationModel navModel)
         {
             JournalPage page = new JournalPage();
             IWebElement category;
             try
             {
-                category = page.GetCategory(navModel.Category);
-                category.Click();
+                if (navModel.Item == null)
+                {
+                    category = page.TryGetItem(navModel.Category, navModel.Category);
+                    if (category.Text == navModel.Category)
+                        return true;
+                    else
+                    {
+                        WebDriver.TakeScreenshot(navModel.Category);
+                        return false;
+                    }
+                }
+                else
+                {
+                    category = page.GetCategory(navModel.Category);
+                    category.Click();
+                }
             }
-            catch(Exception ex)
+            catch
             {
-                Console.WriteLine(ex.Message);
+                WebDriver.TakeScreenshot(navModel.Category);
                 return false;
             }
-            if (navModel.Item != "")
+            try
             {
-                IWebElement item = page.TryGetItem(navModel.Item);
-                if ((item != null) && (item.Text == navModel.Item))
+                IWebElement item = page.TryGetItem(navModel.Item, navModel.Category);
+                if (item.Text == navModel.Item)
                 {
                     category.Click();
                     return true;
@@ -61,13 +56,20 @@ namespace TestFramework
                 else
                 {
                     category.Click();
+                    WebDriver.TakeScreenshot(navModel.Item);
                     return false;
                 }
             }
-            else
+            catch
             {
-                return true;
+                WebDriver.TakeScreenshot(navModel.Item);
+                return false;
             }
+        }
+
+        public static void End()
+        {
+            WebDriver.DriverCancel();
         }
     }
 }
